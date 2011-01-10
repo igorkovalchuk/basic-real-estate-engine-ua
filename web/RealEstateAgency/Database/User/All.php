@@ -1,0 +1,1 @@
+<?phprequire_once 'RealEstateAgency/Database/User/Table.php';require_once 'RealEstateAgency/Database/User/Rowset.php';require_once 'RealEstateAgency/Database/User/Row.php';

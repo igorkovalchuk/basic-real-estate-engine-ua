@@ -1,0 +1,107 @@
+
+
+20.10.2009 Commit:
+
+           Corrected: Login, fixed bug in session initialization; now - start a session anytime;
+           Added: RealEstateAgency_Const::FROZEN to disable this web site / to avoid expensive database operations;
+		   Bug fixed: square of land.
+		   Added our hosting provider's advertisiment, from 10.09.2009.
+
+05.09.2009 Newly created repository.
+
+           Added: SEARCH_PERIOD, SEARCH_PERIOD_MAX;
+           Added: Counters;
+           Added: SearchPaginator; Always do additional SQL COUNT(*), because new logic requires that;
+           Added: duration (profiling);
+           Commented out advertisiment;
+
+...01.2009 Additional changes for hosting.
+           Added: tools_get_input("remote")
+           Fixed: ==! NULL
+           Added: advertisiment;
+
+27.01.2009 A few changes for hosting.
+           Bug fixing.
+           TODO: check XHTML syntax, because there some errors;
+
+24.01.2009 Version 1.7:
+           - use DatabaseConst;
+           - Navigation for large lists;
+           - Encoded password;
+           - many CSS and HTML corrections;
+           - New SQL file with Areas, Districts and Cities;
+
+24.01.2009 Version 1.6:
+           - search by city district;
+           - always start a session to store search parameters;
+           - added new property - square of land;
+           - corrected spelling;
+           - fixed some bugs;
+           - added advertisement block to use free hosting service;
+           Java client:
+           - corrected view of Swing table;
+           - added auto-unarchivation (7-zip and bat-file);
+           - started 'progress bar' (still not done);
+
+31.12.2008 Done, Version 1.5:
+           - added new property - rent period;
+           - added search filter (rooms, period, price);
+           - fixed 1 security 'escape' bug;
+           - fixed image.GIF bug;
+
+04.12.2008 Done: 
+           - server to Java client integration (additional input hidden fields);
+           - fixed float number validation for numbers like 05.50;
+           - added one new column city sub-district (UKR: masyv), insert, update, show;
+           - some changes in web interface (columns) and in the css;
+           Java client (DBF, sell objects):
+           - show Swing select file dialog;
+           - read DBF file header;
+           - create DBF file signature and choose the appropriate mapping class;
+           - read DBF file rows into RealEstateObject[s];
+           - properly work with Cp1251 charset;
+           - charset was also verified on Linux;
+           - remove telephone numbers;
+           - login/logout by using HttpUnit post request;
+           - send RealEstateObject[s] to the server by HttpUnit post request and check the results;
+           - show a window for a single selected object;
+           - show the table again to show the incorrect objects;
+           Java client, to do:
+           - edit single object;
+           - add new object;
+           - tune an interface;
+           - automatically get the post from the mail server, fetch an attachment, dearchive it and proceed;
+           Web:
+           - added 'rent' i.e. 'operation type' (30.12.2008);
+
+22.09.2008 13:48 Added Login controlling.
+                        
+21.09.2008 1:23 fixed bug isset($_SESSION)
+
+20.09.2008 - 21.09.2008 1:05 agency_version_1_2 Version 1.2
+
+           Note: please don't forget correct 'validate' for 'floor' negative numbers.
+           Note: please add multithread 'sleep' to Login and showimage.php;
+
+19.09.2008 Branch N84 agency_version_1_1, Version 1.1
+
+01.01.2008
+
+......2007 Done:
+           - login;
+           - http-session support;
+           - list of areas;
+           - list of districts;
+           - list of settlements;
+           - list of parts of city;
+           - list of streets;
+           To do:
+           - create real-estate object;
+           - edit and update r. e. object;
+           - delete r. e. object;
+           - list r. e. objects;
+           - show for the end user a selected list of r. e. objects;
+           - css design;
+           - usable offline client for enter the data;
+           - other static web-pages about...
+

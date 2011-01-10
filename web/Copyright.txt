@@ -1,0 +1,4 @@
+
+License: GNU General Public License v2
+
+(c) 2007-2009 Igor Kovalchuk
