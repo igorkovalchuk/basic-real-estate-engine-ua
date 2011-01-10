@@ -1,0 +1,1 @@
+<?phprequire_once 'RealEstateAgency/Database/SettlementPart/Table.php';require_once 'RealEstateAgency/Database/SettlementPart/Rowset.php';require_once 'RealEstateAgency/Database/SettlementPart/Row.php';

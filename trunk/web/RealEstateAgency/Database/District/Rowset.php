@@ -1,0 +1,1 @@
+<?phprequire_once 'RealEstateAgency/Database/Base/Rowset.php';class RealEstateAgency_Database_District_Rowset extends RealEstateAgency_Database_Base_Rowset{}

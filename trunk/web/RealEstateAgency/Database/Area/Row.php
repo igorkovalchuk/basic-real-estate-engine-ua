@@ -1,0 +1,1 @@
+<?phprequire_once 'RealEstateAgency/Database/Base/Row.php';class RealEstateAgency_Database_Area_Row extends RealEstateAgency_Database_Base_Row{}
