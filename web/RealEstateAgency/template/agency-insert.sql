@@ -121,4 +121,4 @@ INSERT INTO `settlement_part`
 
 INSERT INTO `users` 
 	(`user_reg_id`, `login_name`, `password`, `first_name`, `family_name`, `agency`, `image_file`, `description_file`, `show_details`, `rights`) VALUES 
-	(1,'user name','user password',NULL,NULL,NULL,'my_picture','my_descr',NULL,NULL);
+	(1,'user name',sha1('user password'),NULL,NULL,NULL,'my_picture','my_descr',NULL,NULL);
