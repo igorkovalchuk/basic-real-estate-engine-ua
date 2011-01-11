@@ -1,0 +1,6 @@
+
+Standalone client
+
+http://basic-real-estate-engine-ua.googlecode.com/svn/trunk/desktop/doc/client1.jpeg
+
+http://basic-real-estate-engine-ua.googlecode.com/svn/trunk/desktop/doc/client2.jpeg
