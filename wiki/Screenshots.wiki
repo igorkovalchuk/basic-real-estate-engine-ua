@@ -1,5 +1,10 @@
+=Web site=
 
-Standalone client
+http://basic-real-estate-engine-ua.googlecode.com/svn/trunk/desktop/doc/site1.jpeg
+
+http://basic-real-estate-engine-ua.googlecode.com/svn/trunk/desktop/doc/site2.jpeg
+
+=Desktop client=
 
 http://basic-real-estate-engine-ua.googlecode.com/svn/trunk/desktop/doc/client1.jpeg
 
