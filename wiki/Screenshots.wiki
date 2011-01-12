@@ -1,3 +1,4 @@
+#labels Featured
 =Web site=
 
 http://basic-real-estate-engine-ua.googlecode.com/svn/trunk/desktop/doc/site1.jpeg
